@@ -3,6 +3,9 @@ body {
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 #landing-page {
   width: 100vw;
   height: 100vh;
@@ -163,4 +166,76 @@ body {
   height: 650px;
   background: #cfdd77;
   padding-top: 20px;
+}
+#About-us-description {
+  color: #112500;
+  text-align: justify;
+  font-family: "Gart Serif";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 106%;
+  margin-left: 120px;
+}
+#About-us-title {
+  margin-left: 50px;
+  color: #112500;
+  font-family: "Gart Serif";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#About-img {
+  margin-left: 90px;
+  margin-top: -145px;
+}
+#Contact-us {
+  height: 428px;
+  width: 100%;
+  background: #0c1900;
+  justify-content: center;
+}
+#Contact-us-title {
+  color: #cfdd77;
+  font-family: "Gart Serif";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 165px;
+  padding-top: 20px;
+}
+
+#address {
+  color: #ffb1bd;
+  font-family: "Gart Serif";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133%;
+  margin-left: 180px;
+  margin-top: -40px;
+}
+#Hours {
+  color: #ffb1bd;
+  font-family: "Gart Serif";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133%;
+  margin-top: -40px;
+  margin-left: -150px;
+}
+#branch {
+  width: 329px;
+  height: 412px;
+  position: absolute;
+  right: -55px;
+  margin-top: -330px;
+}
+#Social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
