@@ -1,0 +1,166 @@
+body {
+  overscroll-behavior-y: contain;
+  margin: 0;
+  padding: 0;
+}
+#landing-page {
+  width: 100vw;
+  height: 100vh;
+  flex-shrink: 0;
+  opacity: 0.9;
+  background-image: url("/assets/images/earl-wilcox-UqDIZA3zAN4-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#landing-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+@font-face {
+  font-family: "Gart Serif";
+  src: url("assets/fonts/gartseriftrial-regular.otf");
+}
+@font-face {
+  font-family: "Gart Serif Medium";
+  src: url("assets/fonts/gartseriftrial-medium.otf");
+}
+@font-face {
+  font-family: "Calle Austin";
+  src: url("assets/fonts/CalleAustin-BF65d41bafca56b.ttf");
+}
+@font-face {
+  font-family: "Soria";
+  src: url("assets/fonts/soria-font.ttf");
+}
+
+.navbar-nav .nav-link {
+  color: #ffb1bd;
+  font-family: "Gart Serif";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 40px;
+}
+
+.navbar-brand {
+  color: #cfdd77;
+  font-family: Soria;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 40px;
+}
+
+.navbar {
+  background: transparent !important;
+  transition: background-color 0.5s ease-in-out;
+}
+.navbar-brand:hover,
+.navbar-brand:active,
+.navbar-brand:focus {
+  color: #cfdd77 !important;
+}
+#title {
+  color: #fff3cd;
+  font-family: "Calle Austin";
+  font-size: 150px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  padding-top: 220px;
+}
+#description {
+  color: #ffb1bd;
+  text-align: center;
+  font-family: "Gart Serif";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 111%;
+  width: 508px;
+  height: 49px;
+  margin: 0 auto;
+  margin-top: -30px;
+}
+#appointment-button {
+  color: #112500;
+  font-family: "Gart Serif";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #ffb1bd;
+  width: 324px;
+  height: 60px;
+  margin: 0 auto;
+  display: block;
+  border: none;
+  margin-top: 30px;
+}
+#services {
+  width: 100vw;
+  height: 667px;
+  background: #f8d0d4;
+  padding-top: 20px;
+}
+#service-section-title {
+  color: #112500;
+  font-family: "Gart Serif";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 50px;
+}
+.service-image {
+  width: 333px;
+  height: 450px;
+  filter: brightness(0.5);
+}
+.service-card {
+  position: relative;
+}
+.row {
+  gap: 30px;
+}
+
+.service-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffb1bd;
+  text-align: center;
+  font-family: "Calle Austin Demo";
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90.753%;
+}
+.navbar.scrolled {
+  background: #0c1900 !important;
+}
+
+.navbar.scrolled .nav-link {
+  color: #cfdd77 !important;
+}
+
+.navbar.scrolled .navbar-brand {
+  color: #fff3cd !important;
+}
+
+#About-us {
+  width: 100vw;
+  height: 650px;
+  background: #cfdd77;
+  padding-top: 20px;
+}
