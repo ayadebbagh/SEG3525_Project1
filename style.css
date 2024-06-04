@@ -6,6 +6,9 @@ body {
 html {
   scroll-behavior: smooth;
 }
+a {
+  text-decoration: none;
+}
 #landing-page {
   width: 100vw;
   height: 100vh;
@@ -238,4 +241,170 @@ html {
   display: flex;
   justify-content: center;
   margin-top: 50px;
+}
+#navbar-services {
+  background: #0c1900;
+}
+#nav-link {
+  color: #cfdd77 !important;
+}
+
+#navbar-brand {
+  color: #fff3cd !important;
+}
+
+#learn-more {
+  color: #fff3cd;
+  font-family: "Gart Serif";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #112500;
+  width: 250px;
+  height: 50px;
+  margin: 0 auto;
+  display: block;
+  border: none;
+  margin-top: -10px;
+}
+#services-page {
+  background-color: #f8d0d4;
+  width: 100vw;
+  height: 2100px;
+  justify-content: center;
+  position: relative;
+}
+#services-title {
+  color: #112500;
+  font-family: "Calle Austin";
+  font-size: 110px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 170px;
+  text-align: center;
+}
+#gifts-title {
+  color: #112500;
+
+  text-align: left;
+  font-family: "Gart Serif";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90.753%;
+  padding-left: 50px;
+}
+#gifts-img {
+  width: 450px;
+  height: 450px;
+  padding: 0;
+  margin: 0;
+  margin-top: 40px;
+}
+#gifts-desc {
+  background-color: #112500;
+  width: 450px;
+  height: 450px;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 40px;
+}
+.no-gap {
+  gap: 0;
+}
+#services-desc {
+  color: #fff3cd;
+  text-align: justify;
+  font-family: "Gart Serif";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101%;
+  padding: 20px;
+  padding-top: 50px;
+}
+#price {
+  color: #cfdd77;
+  text-align: justify;
+  font-family: "Gart Serif";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101%;
+  text-align: center;
+  padding-top: 20px;
+}
+#appointment-button-services {
+  color: #112500;
+  font-family: "Gart Serif";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #cfdd77;
+  width: 324px;
+  height: 60px;
+  margin: 0 auto;
+  display: block;
+  border: none;
+  margin-top: 70px;
+}
+#arrangements-desc {
+  background-color: #112500;
+  width: 450px;
+  height: 450px;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 40px;
+}
+#arrangements-img {
+  width: 450px;
+  height: 450px;
+  padding: 0;
+  margin: 0;
+  margin-top: 40px;
+}
+#arrangements-title {
+  color: #112500;
+
+  text-align: left;
+  font-family: "Gart Serif";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90.753%;
+  padding-left: 50px;
+  padding-top: 40px;
+}
+#bouquets-desc {
+  background-color: #112500;
+  width: 450px;
+  height: 450px;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 40px;
+}
+#bouquets-img {
+  width: 450px;
+  height: 450px;
+  padding: 0;
+  margin: 0;
+  margin-top: 40px;
+}
+#bouquets-title {
+  color: #112500;
+
+  text-align: left;
+  font-family: "Gart Serif";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90.753%;
+  padding-left: 50px;
+  padding-top: 40px;
 }
