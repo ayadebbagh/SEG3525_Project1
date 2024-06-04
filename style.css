@@ -408,3 +408,136 @@ a {
   padding-left: 50px;
   padding-top: 40px;
 }
+#Booking-page {
+  background-color: #eef9af;
+  height: 100vh;
+  width: 100vw;
+}
+#booking-title {
+  color: #112500;
+  font-family: "Calle Austin";
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 150px;
+  text-align: center;
+}
+#form-control {
+  width: 260px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+  margin-top: 40px;
+  font-family: "Gart Serif";
+}
+#email {
+  width: 260px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+
+  font-family: "Gart Serif";
+}
+#details {
+  width: 260px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+  font-family: "Gart Serif";
+  resize: none;
+}
+.dropdown {
+  margin-bottom: 20px;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+#dropdownMenuButton1 {
+  background-color: #112500;
+  border-color: #112500;
+  font-family: "Gart Serif";
+}
+#dropdownMenuButton2 {
+  background-color: #112500;
+  border-color: #112500;
+  font-family: "Gart Serif";
+}
+.dropdown-item {
+  font-family: "Gart Serif";
+}
+#date-text {
+  margin-left: 70px;
+  font-family: "Gart Serif";
+  font-size: 20px;
+}
+#img-expert {
+  width: 200px;
+  height: 200px;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+#experts {
+  margin-left: -35px;
+}
+.image-container {
+  position: relative;
+}
+
+.image-description {
+  bottom: 0;
+  background-color: #f8d0d4; /* Semi-transparent black */
+  color: #0c1900;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  font-family: "Gart Serif";
+}
+.form-check-label {
+  font-family: "Gart Serif";
+  font-size: 18px;
+}
+#confirmation-button {
+  color: #0c1900;
+  font-family: "Gart Serif";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: transparent;
+  margin: 0 auto;
+  display: block;
+  border: none;
+  margin-top: 30px;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+#confirmation-div {
+  width: 200px;
+}
+#confirmation-page {
+  width: 100vw;
+  height: 832px;
+  background-image: url("assets/images/bg-confirmation.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+}
+#thank-you {
+  color: #112500;
+  font-family: "Calle Austin";
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101%;
+  padding-top: 280px;
+  text-align: center;
+}
+#email-send {
+  color: #112500;
+  font-family: "Gart Serif Trial";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101%;
+  padding-top: px;
+  text-align: center;
+}

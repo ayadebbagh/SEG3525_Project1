@@ -15,3 +15,16 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+document.querySelectorAll("#dropdown-item1").forEach((item) => {
+  item.addEventListener("click", (event) => {
+    document.querySelector("#dropdownMenuButton1").textContent =
+      event.target.textContent;
+  });
+});
+document.querySelectorAll("#dropdown-item2").forEach((item) => {
+  item.addEventListener("click", (event) => {
+    document.querySelector("#dropdownMenuButton2").textContent =
+      event.target.textContent;
+  });
+});
